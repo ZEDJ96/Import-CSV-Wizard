@@ -1,0 +1,11 @@
+GivenName,Surname,ObjectClass,Enabled,SamAccountName,Name
+John,Doe,User,TRUE,John.Doe,John Doe
+Jane,Doe,User,TRUE,Jane.Doe,Jane Doe
+
+
+DELETE BELOW BEFORE IMPORTING CSV FILE
+### FIRST LINE IS THE PARAMETERS FOR THE ACCOUNT, JANE DOE AND JOHN DOE ARE EXAMPLES
+### OTHER POSSIBLE PARAMETERS TO ADD INCLUDE::: AccountPassword, Country, Company, City, DisplayName,  Description, EmailAddress, Division, EmployeeID, EmployeeNumber, HomePhone, Initials, Office, OfficePhone, Organization, State, Title, UserPrincipalName
+### THE FOLLOWING PARAMETERS MUST BE SET AS EITHER TRUE OR FALSE::: CannotChangePassword, ChangePasswordAtLogon, SmartCardLogonRequired, PasswordNotRequired, PasswordNeverExpires
+
+### For the parameters listed in the above example, GivenName is the First Name, Surname is the Last Name, ObjectClass will be User, SamAccountName is First.Last, and Name is a required parameter as "First Last"
